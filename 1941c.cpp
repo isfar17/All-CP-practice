@@ -9,6 +9,14 @@ int main() {
 
     while (t--)
     {
+        int n;
+        cin>>n;
+        string s;
+        cin>>s;
+        for (int i = 0; i < s.size(); i++)
+        {
+            /* code */
+        }
         
     }
 
