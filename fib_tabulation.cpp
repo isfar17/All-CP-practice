@@ -7,8 +7,17 @@ int main() {
     int t;
     cin>>t;
 
-    while(t--)
+    vector<int> arr(t+1,-1);
+    arr[0]=0;
+    arr[1]=1;
+
+    for (int i = 2; i <=t; i++)
     {
-        
+        arr[i]=arr[i-1]+arr[i-2];
+
     }
+    cout<<arr[t];
+    
+
+
 }

@@ -12,31 +12,38 @@ int main() {
     {
         int n;
         cin>>n;
-        int a[n];
-
-        for (int i = 0; i < n; i++)
+        vector <int> arr(n+1);
+        for (int i = 0; i <= n; i++)
         {
-            cin>>a[i];
+            cin>>arr[i];
         }
-        string res="YES\n";
-        for (int i = 2; i < n-1; i++)
+        string res="YES";
+        for (int i = 1; i <n; i++)
         {
-            a[i-1]=a[i-1]-1;
-            a[i]=a[i]-2;
-            a[i+1]=a[i+1]-1;
+            int minimum=min({arr[i-1],arr[i],arr[i+1]});
 
-            for (int j = 0; j < i; j++)
-            {
-                if(a[j]<0)
-                {
-                    res="NO\n";
-                    break;
-                }
-            }
+            arr[i-1]-=minimum;
+            arr[i]-=(2*minimum);
+            arr[i+1]-=minimum;
             
+            if(arr[i]<0 or arr[i+1]<0 or arr[i-1]<0)
+            {
+                res="NO";
+                break;
+            }
+
         }
-        cout<<res;
-        
+        for (int i = 1; i <=n; i++)
+        {
+            if(arr[i]<0 or arr[i]>0)
+            {
+                res="NO";
+                break;
+
+            }
+
+        }
+        cout<<res<<endl;      
     }
 
 }

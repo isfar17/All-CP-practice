@@ -4,22 +4,22 @@ using namespace std;
 int main() {
     freopen("input.txt","r",stdin);
     freopen("output.txt","w",stdout);
-    long long t;
+    int t;
     cin>>t;
     while (t--)
     {   
-        double count=0;
-        long  n;
+        long long count=0;
+        int  n;
         cin>>n;
-        while (n!=0)
+        for (int i = 0; i < n; i++)
         {   
-            float data; 
-            cin>>data;  
-            count+=data;
-            n--;
+            long long x;
+            cin>>x;
+            count+=x;
         }
         
-        float result=sqrt(count);
+        
+        double result=sqrt(count);
         if(int(result)==result)
         {
             cout<<"YES\n";
