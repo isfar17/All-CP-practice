@@ -18,7 +18,7 @@ int main() {
     if((c)==n)
     {
         count=1;
-    }
+    }   
     if((a+b)==n)
     {
         count=2;
