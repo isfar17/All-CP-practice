@@ -1,0 +1,1 @@
+{"name":"Local: 313A","url":"e:\\All CP practice\\313A.cpp","tests":[{"id":1711306615212,"input":"2230","output":"2230"},{"id":1711306624387,"input":"-10\n","output":"0\n"},{"id":1711306635233,"input":"-100003","output":"-10000"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\All CP practice\\313A.cpp","group":"local","local":true}

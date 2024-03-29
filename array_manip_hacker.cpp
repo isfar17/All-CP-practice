@@ -15,12 +15,12 @@ output:
 
 tricks to solve in efficient way
 
-0 0  0     0       0    0   0
-0 0  5     0       0   -5   0
-0 0  5     5+4     0   -4   0
-0 2  5+2   5+4+2   0    0  -2
+0 0  0     0    0    0    0
+0 0  5     0    0   -5    0
+0 0  5     4    0   -4    0
+0 2  5     4    0    0   -2
 take prefix sum now
-0 2  7    11       11   2   -2
+0 2  7    11    11   2   -2
 */
 
 #include <bits/stdc++.h>
@@ -28,8 +28,7 @@ using namespace std;
 
 int arr[100];
 int main() {
-    freopen("input.txt","r",stdin);
-    freopen("output.txt","w",stdout);
+ 
     int t;
     cin>>t;
     while (t--)

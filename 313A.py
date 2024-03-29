@@ -1,0 +1,12 @@
+x=input();
+if(int(x)>=0):
+    print(int(x))
+else:
+    last=x[:-1]
+    last_second=x[:-2]+x[-1]
+    last=int(last)
+    last_second=int(last_second)
+    if(last>=last_second):
+        print(last)
+    else:
+        print(last_second)

@@ -2,8 +2,7 @@
 using namespace std;
 
 int main() {
-    freopen("input.txt","r",stdin);
-    freopen("output.txt","w",stdout);
+
     int t;
     cin>>t; 
 
@@ -17,16 +16,26 @@ int main() {
             cin>>arr[i];
         }
         string data="";
-        int val=0;
-        for (int i = 0; i < len; i++)
+        char alphabet='a';
+
+        int indx_str=0,i=0,alpha_increaser=0;
+
+        while (i<len)
         {
-            if(arr[i]=='0')
-            { 
-                data+=to_string('a'+val);
-                val++;
-                }
+            switch (arr[i])
+            {
+            case 0:
+                data+=(alphabet+alpha_increaser);
+                break;
+            case 1:
+                data+=(alphabet+alpha_increaser);
+                break;
+            
+            default:
+                break;
+            }
         }
-        cout<<data<<"\n";
+        
         
         
     }

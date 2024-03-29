@@ -1,0 +1,1 @@
+{"name":"Local: array_manip_hacker","url":"e:\\All CP practice\\array_manip_hacker.cpp","tests":[{"id":1711183103163,"input":"3\n2 4 5\n3 4 4\n1 5 2","output":"0 2 7 11 11 2 -2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\All CP practice\\array_manip_hacker.cpp","group":"local","local":true}

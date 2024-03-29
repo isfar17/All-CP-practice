@@ -1,0 +1,1 @@
+{"name":"Local: 1791A","url":"e:\\All CP practice\\1791A.py","tests":[{"id":1711304955066,"input":"10\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\n","output":"NO\nNO\nYES\nYES\nYES\nYES\nNO\nNO\nNO\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\All CP practice\\1791A.py","group":"local","local":true}
