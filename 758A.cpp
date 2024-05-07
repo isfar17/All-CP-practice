@@ -12,10 +12,16 @@ int main() {
     optimize()
     int t;
     cin>>t;
-
-    while(t--)
+    int sum=0,maximum=INT_MIN;
+    for (int i = 0; i <t; i++)
     {
-        
+        int x;
+        cin>>x;
+        sum+=x;
+        maximum=max(maximum,x);
+
     }
+    cout<<(maximum*t)-sum<<endl;
+
 
 }

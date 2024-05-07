@@ -3,6 +3,11 @@
         "*.cpp": "cpp",
         "iostream": "cpp",
         "ostream": "cpp",
-        "string": "cpp"
+        "string": "cpp",
+        "cmath": "cpp",
+        "iomanip": "cpp",
+        "random": "cpp",
+        "complex": "cpp",
+        "cstdlib": "cpp"
     }
 }

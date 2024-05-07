@@ -15,6 +15,8 @@ int main() {
 
     while(t--)
     {
+        string x;
+        cin>>x;
         
     }
 

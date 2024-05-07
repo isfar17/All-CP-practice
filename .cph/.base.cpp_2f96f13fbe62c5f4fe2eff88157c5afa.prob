@@ -1,0 +1,1 @@
+{"name":"Local: base","url":"e:\\All CP practice\\base.cpp","tests":[{"id":1713545066741,"input":"2 7 6 5\n8 9 7 3","output":"Largest in first row 7\nSmallest in second row 3\nProduct of two value 21"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\All CP practice\\base.cpp","group":"local","local":true}

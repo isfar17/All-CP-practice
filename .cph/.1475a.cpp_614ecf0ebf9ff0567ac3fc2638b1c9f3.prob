@@ -1,0 +1,1 @@
+{"name":"Local: 1475a","url":"e:\\All CP practice\\1475a.cpp","tests":[{"id":1713527107831,"input":"6\n2\n3\n4\n5\n998244353\n1099511627776","output":"NO\nYES\nNO\nYES\nYES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\All CP practice\\1475a.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 80A","url":"e:\\All CP practice\\80A.cpp","tests":[{"id":1712502473275,"input":"3 5\n","output":"YES"},{"id":1712502478824,"input":"7 11\n","output":"YES"},{"id":1712502489722,"input":"7 9","output":"NO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\All CP practice\\80A.cpp","group":"local","local":true}

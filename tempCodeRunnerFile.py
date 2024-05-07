@@ -1,7 +1,5 @@
-x=input()
-
-if(( x[0].islower() and x[1:].isupper()) or x.isupper() ) :
-    print(x.lower().capitalize())
-else:
-    print(x)
-    
+a=18020421802042
+b=19020431902043
+c=a*b
+d=c+2
+print(d)
