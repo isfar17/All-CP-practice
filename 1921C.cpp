@@ -15,7 +15,9 @@ int main() {
 
     while(t--)
     {
-
+        int n,f,a,b;
+        cin>>n>>f>>a>>b;
+        
     }
 
 }

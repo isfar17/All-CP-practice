@@ -1,0 +1,1 @@
+{"name":"Local: 230B","url":"e:\\All CP practice\\230B.cpp","tests":[{"id":1715691955862,"input":"3\n4 5 6\n","output":"YES\nNO\nNO\n"},{"id":1715696052640,"input":"10\n10 9 8 7 6 5 4 3 2 1","output":"NO\nYES\nNO\nNO\nNO\nNO\nYES\nNO\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\All CP practice\\230B.cpp","group":"local","local":true}

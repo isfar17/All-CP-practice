@@ -1,2 +1,2 @@
-
-    // freopen("output.txt","w",stdout);
+            if(k==1)
+                break;
