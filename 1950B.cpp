@@ -62,16 +62,16 @@ combined string:
         }
         for (int i = 1; i <=t; i++)
         {
-        if(i%2==1)
-        {
-            cout<<pattern1<<endl<<pattern1<<endl;
-        }
-        else
-        {
-            cout<<pattern2<<endl<<pattern2<<endl;
-        }
+            if(i%2==1)
+            {
+                cout<<pattern1<<endl<<pattern1<<endl;
+            }
+            else
+            {
+                cout<<pattern2<<endl<<pattern2<<endl;
+            }
         }
         
-        }
+    }
         
 }

@@ -1,2 +1,2 @@
-            if(k==1)
-                break;
+    // int t;
+    // cin>>t;
